@@ -1,0 +1,30 @@
+# Data files
+output/
+data/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing / Linting
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage

@@ -1,0 +1,13 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - db-data:/app/data
+      - telemetry-output:/app/output
+    restart: unless-stopped
+
+volumes:
+  db-data:
+  telemetry-output:

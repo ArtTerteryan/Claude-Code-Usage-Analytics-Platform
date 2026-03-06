@@ -1,0 +1,17 @@
+.git
+.gitignore
+.DS_Store
+.claude
+.ruff_cache
+.pytest_cache
+__pycache__
+*.pyc
+
+# Large data files — mounted as volumes, not copied into image
+data/
+output/
+
+# Docs
+docs/
+*.md
+!README.md
